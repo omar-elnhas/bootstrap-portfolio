@@ -6,6 +6,7 @@
 .navbar{
     background-color: rgba(78, 78, 78,.5);
     transition: background-color .5s;
+    z-index: 99999;
 }
 .nav-link {
 color: white;
@@ -456,8 +457,9 @@ h2 a{
   
   .fixed-arrow i {
     background-color:transparent;
-    color: #298EFF ;
+    color: #298EFF;
     display: none;
+    
   }
   
   
