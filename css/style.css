@@ -339,7 +339,7 @@ h2 a{
     background-image: url(img/overlay-bg.jpg);
     background-size: cover;
     background-position: center;
-    height: 70vh;
+    height: 80vh;
 }
 .carousel-item img {
     width: 15%;
@@ -356,9 +356,10 @@ h2 a{
     margin-left: 0px !important;
     margin-right: 0px !important;
     display: block;
-    top: 80%;
-    left: 50%;
-    transform: translateX(-3%);
+    top: 5%;
+    /* left: 50%;
+    transform: translateX(-10%); */
+    color: #4e4e4e !important;
 }
 .carousel-inner{
     position: relative !important;
@@ -447,7 +448,6 @@ h2 a{
 .fixed-arrow {
     position: fixed;
     top: 90%;
-    left: 95%;
   }
   
   .fixed-arrow button {
